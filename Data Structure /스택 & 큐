@@ -1,4 +1,46 @@
-스택(Stack)
+#스택(Stack)
 
 입력과 출력이 한 곳(방향)으로 제한
 LIFO (Last In First Out) : 가장 나중에 들어온 것이 가장 먼저 나옴
+                                                                                                                                                        
+스택 용어
+top(peek): 가장 최근에 저장된 데이터이자 먼저 삭제 될 데이터입니다. 그림상에서 요소 4가 해당됩니다
+push: 데이터를 삽입하는것을 말하며 삽입 된 데이터는 삭제시 가장 먼저 삭제 될 데이터가 됩니다
+``` 
+public void push(Object o) {
+    if(isFull(o)) {
+        return;
+    }
+    
+    stack[++sp] = o;
+}
+``` 
+pop: 데이터를 삭제할 때 사용하며 가장 최근에 저장된 데이터가 삭제됩니다
+``` 
+public Object pop() {
+    
+    if(isEmpty(sp)) {
+        return null;
+    }
+    
+    Object o = stack[sp--];
+    return o;
+    
+}
+``` 
+
+
+
+
+#큐(Queue)
+한 쪽에서는 데이터 삽입, 다른 한 쪽에서는 데이터의 삭제만 가능한 선입선출
+FIFO (First In First Out) : 가장 먼저 넣은 것이 가장 먼저 나옴
+
+큐 용어
+Enqueue: 데이터 삽입
+Dequeue (JS의 shift): 데이터 삭제
+Front: Dequeue시 삭제되는 데이터 (가장 먼저 저장된 데이터)를 가르킵니다.
+Rear: 추가될 새로운 요소의 위치를 가르킵니다.
+
+
+
