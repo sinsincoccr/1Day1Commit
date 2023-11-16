@@ -17,5 +17,5 @@ DB 처리, 로직 처리를 요구하는 동적타입을 제공하는 소프트�
 3. 업무를 처리하는 비즈니스 로직을 수행한다.
 <br/><br/>
 
-아파치 + 톰캣 구조 <br/>
+# 아파치 + 톰캣 구조 <br/>
 ![image](https://github.com/sinsincoccr/1Day1Commit/assets/145324925/431ecf16-cdd2-41ae-983f-5524097caa8a)
