@@ -10,3 +10,8 @@
      
 - Web
   1. [아파치 & 톰캣](https://github.com/sinsincoccr/1Day1Commit/blob/main/Web/Apache%20%26%20Tomcat.md)
+
+- CleanCode
+  1. [의미있는 이름](https://github.com/sinsincoccr/1Day1Commit/blob/main/CleanCode/%EC%9D%98%EB%AF%B8%EC%9E%88%EB%8A%94%20%EC%9D%B4%EB%A6%84.md)
+
+  
