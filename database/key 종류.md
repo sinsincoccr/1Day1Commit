@@ -2,25 +2,23 @@
 검색, 정렬시 Tuple을 구분할 수 있는 기준이 되는 Attribute.<br/>
 
 
-1. Candidate Key (후보키)<br/>
+## 1. Candidate Key (후보키)<br/>
 Tuple을 유일하게 식별하기 위해 사용하는 속성들의 부분 집합. (기본키로 사용할 수 있는 속성들)<br/>
 
 2가지 조건 만족 <br/>
 유일성 : Key로 하나의 Tuple을 유일하게 식별할 수 있음 <br/>
 최소성 : 꼭 필요한 속성으로만 구성<br/>
 
-2. Primary Key (기본키)<br/>
-후보키 중 선택한 Main Key<br/>
+## 2. Primary Key (기본키)<br/>
+후보키 중 선택한 Main Key로 두가지 특성을 가짐<br/>
+1. Null 값을 가질 수 없음<br/>
+2. 동일한 값이 중복될 수 없음
 
-- 특징
-Null 값을 가질 수 없음<br/>
-동일한 값이 중복될 수 없음
-
-3. Alternate Key (대체키)<br/>
+## 3. Alternate Key (대체키)<br/>
 후보키 중 기본키를 제외한 나머지 키 = 보조키<br/>
 
-4. Super Key (슈퍼키)<br/>
+## 4. Super Key (슈퍼키)<br/>
 유일성은 만족하지만, 최소성은 만족하지 못하는 키<br/>
 
-5. Foreign Key (외래키)<br/>
+## 5. Foreign Key (외래키)<br/>
 다른 릴레이션의 기본키를 그대로 참조하는 속성의 집합<br/>
