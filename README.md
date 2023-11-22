@@ -13,6 +13,9 @@
 
 - CleanCode
   1. [의미있는 이름](https://github.com/sinsincoccr/1Day1Commit/blob/main/CleanCode/%EC%9D%98%EB%AF%B8%EC%9E%88%EB%8A%94%20%EC%9D%B4%EB%A6%84.md)
+  2. [함수 이름 짓기](https://github.com/sinsincoccr/1Day1Commit/blob/main/CleanCode/%ED%95%A8%EC%88%98.md)
+ 
+
 
  - Database
   1. [key종류](https://github.com/sinsincoccr/1Day1Commit/blob/main/database/key%20%EC%A2%85%EB%A5%98.md)
