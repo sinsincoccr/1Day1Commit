@@ -14,5 +14,8 @@
 - CleanCode
   1. [의미있는 이름](https://github.com/sinsincoccr/1Day1Commit/blob/main/CleanCode/%EC%9D%98%EB%AF%B8%EC%9E%88%EB%8A%94%20%EC%9D%B4%EB%A6%84.md)
 
-  Database
-1. [key종류](https://github.com/sinsincoccr/1Day1Commit/blob/main/database/key%20%EC%A2%85%EB%A5%98.md)
+ - Database
+  1. [key종류](https://github.com/sinsincoccr/1Day1Commit/blob/main/database/key%20%EC%A2%85%EB%A5%98.md)
+
+- Software Engineering
+  1. [OOP](https://github.com/sinsincoccr/1Day1Commit/blob/main/Software%20Engineering/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(OOP).md)
