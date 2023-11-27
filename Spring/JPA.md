@@ -4,8 +4,7 @@
 - JPA Java Persistence Api : 자바 기반의 ORM 기술 표준
 - ORM Object-Relational Mapping : 객체와 관계형데이터베이스를 매핑한다는 뜻.
 - ORM 프레임워크는 객체와 데이블을 매핑해서 패러다임의 불일치 문제를 개발자 대신 해결해준다.
-- EJB Enterprise Java Bean : 엔티티 빈이라는 ORM 기술이 포함된 과저 자바 기술 표준으로 너무 복잡하
-- 고 사용하기 어려웠음 -> Hibernate 오픈소스 ORM 탄생
+- EJB Enterprise Java Bean : 엔티티 빈이라는 ORM 기술이 포함된 과저 자바 기술 표준으로 너무 복잡하고 사용하기 어려웠음 -> Hibernate 오픈소스 ORM 탄생
 - Hiberante : 오픈소스 ORM 프레임워크로 EJB 보다 가볍고 실용적이며 호환성도 높아 많이 사용됨.
 - 결국 EJB 3.0 에서 Hibernate 기반으로 새로운 자바 ORM 기술 표준이 만들어 졌는데 그것이 JPA 이다.
 - 표준은 인터페이스들의 묶음이다. 즉 JPA 표준을 사용하기 위해서는 JPA를 구현한 구현체가 필요
