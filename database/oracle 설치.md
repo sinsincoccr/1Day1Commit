@@ -30,19 +30,19 @@ https://www.oracle.com/kr/database/sqldeveloper/ 운영체제 버전에 맞게 �
 4) 화면에 접속됨 이라고 나오고 프롬프트에 SQL> 이라고 뜨면
 정상으로 설치되어 관리자 계정으로 로그인까지 확인 완료!
 
-### sqlplus에서 계정 생성
-[ 사용자 정보 확인 ]
--- 모든 계정에 대한 정보 확인
-SELECT * FROM ALL_USERS;
--- 모든 계정에 대한 이름 확인
-SELECT USERNAME FROM ALL_USERS;
-[ 사용자 계정 추가 ]
-ALTER SESSION SET "_ORACLE_SCRIPT"=true;
--- 사용자 계정 생성
-CREATE USER 계정명 IDENTIFIED BY 비밀번호;
--- 사용자 계정 생성후 권한 부여하기
-GRANT 권한명, 권한명 TO 계정명;
--- (EX)
-GRANT CONNECT, RESOURCE TO 계정명;
--- 테이블 생성등 테이블 스페이스 권한 부여
-ALTER USER 계정명 DEFAULT TABLESPACE USERS QUOTA UNLIMITED ON USERS
+### sqlplus에서 계정 생성  
+[ 사용자 정보 확인 ]  
+-- 모든 계정에 대한 정보 확인  
+SELECT * FROM ALL_USERS;  
+-- 모든 계정에 대한 이름 확인  
+SELECT USERNAME FROM ALL_USERS;  
+[ 사용자 계정 추가 ]  
+ALTER SESSION SET "_ORACLE_SCRIPT"=true;  
+-- 사용자 계정 생성  
+CREATE USER 계정명 IDENTIFIED BY 비밀번호;  
+-- 사용자 계정 생성후 권한 부여하기  
+GRANT 권한명, 권한명 TO 계정명;  
+-- (EX)  
+GRANT CONNECT, RESOURCE TO 계정명;  
+-- 테이블 생성등 테이블 스페이스 권한 부여  
+ALTER USER 계정명 DEFAULT TABLESPACE USERS QUOTA UNLIMITED ON USERS  
