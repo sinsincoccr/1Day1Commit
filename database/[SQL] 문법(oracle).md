@@ -12,8 +12,8 @@
  grant, revoke <br/>
 
 
-## 기초 <br/>
-1. select문 <br/>
+
+## 1. select문 <br/>
 ```
 SELECT : 테이블에서 데이터 질의하는 키워드 
 FROM : 데이터를 조회하고 싶은 테이블의 이름을 정하는 키워드
@@ -54,13 +54,13 @@ HAVING salary >= 5500;
 ```
 
 
-2. distinct문 (중복제거) <br/>
+## 2. distinct문 (중복제거) <br/>
 ```
 select distinct department_id from employees;
 ```
 
 
-3. LIKE문 (포함된 문자 찾기) <br/>
+## 3. LIKE문 (포함된 문자 찾기) <br/>
 ```
 '%d' : d로 끝나는
 'a%' : a로 시작하는
