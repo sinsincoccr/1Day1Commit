@@ -83,3 +83,12 @@ from employees
 where job_id like '%M';
 ```
 
+## 4. 집계함수  <br/>
+```
+SUM : SELECT SUM(MONEY) FROM TABLE ;
+AVG : SELECT AVG(MONEY) FROM TABLE ;
+COUNT : SELECT COUNT(MONEY) FROM TABLE ;
+MAX : SELECT MAX(MONEY) FROM TABLE ;
+MIN : SELECT MIN(MONEY) FROM TABLE ;
+
+```
