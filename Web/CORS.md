@@ -1,6 +1,7 @@
 # CORS <br/>
 CORS(Cross-Origin Resource Sharing)는 출처가 다른 자원들을 공유한다는 뜻으로, 한 출처에 있는 자원에서 다른 출처에 있는 자원에 접근하도록 하는 개념입니다.  <br/>
 직역하면, 교차되는 출처 자원들의 공유입니다. 다른 출처에 있는 자원을 요청한다고 하면, 이를 교차 출처 요청이라한다. <br/>
+따라서 다른 서버의 리소스를 불러오기 위해서는, 그 출처에서 CORS에 대한 내용을 Response의 헤더에 추가해줘야 합니다. <br/>
 
 - 출처
 ![image](https://github.com/sinsincoccr/Study/assets/145324925/3b0ed4f5-9b77-40bf-ae31-317c42ce7f59)
