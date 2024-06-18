@@ -48,3 +48,9 @@
  ## spring
    1. [Spring security](https://github.com/sinsincoccr/Study/blob/main/Spring/Spring%20Security%20JWT.md)
    2. [JPA](https://github.com/sinsincoccr/Study/blob/main/Spring/JPA.md)
+
+
+
+
+## 정보처리기사 실기
+  [1장 요구사항 확인](https://github.com/sinsincoccr/Study/blob/main/%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EA%B8%B0%EC%82%AC%20%EC%8B%A4%EA%B8%B0)
